@@ -11,3 +11,10 @@ class Player:
     
     def ask_move(self):
         raise NotImplementedError
+
+
+class HumanPlayer(Player):
+    def ask_move(self):
+        movement = input("Please enter your move: ")
+        # TODO: Add input check
+        return movement

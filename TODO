@@ -9,4 +9,5 @@ Attributes: contains the board
 Methods: decides valid or invalid + make move, print board, is won
 
 3. Class GameManager - 
-Attributes: 
+Attributes: Player, Board
+Methods: create game, display board, end game, update

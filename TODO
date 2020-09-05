@@ -1,0 +1,12 @@
+Class  - attributes, methods. (inheritance)
+
+1. Class Player - 
+Attributes: Name, X or O
+Methods: Getters and setters, make move.
+
+2. Class Board -
+Attributes: contains the board
+Methods: decides valid or invalid + make move, print board, is won
+
+3. Class GameManager - 
+Attributes: 
